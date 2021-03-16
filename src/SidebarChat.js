@@ -5,9 +5,9 @@ import "./SidebarChat.css";
 function SidebarChat() {
     return (
         <div className="sidebarChat">
-            <Avatar src="https://wallpapercave.com/wp/wp5047303.jpg" />
+            <div className="avatar"><Avatar src="https://wallpapercave.com/wp/wp5047303.jpg" /></div>
             <div className="sidebarInfo">
-            <h4>Nilesh Sir Fintech</h4>
+            <h3>Nilesh Sir Fintech</h3>
             <p>Hello Nachiket</p>
             </div>
         </div>

@@ -4,4 +4,30 @@
     flex: 0.65;
 }
 
+.chat_header{
+    display: flex;
+    padding: 0px;
+    /* justify-content: space-between; */
+    /* border-right: 1px solid rgb(230, 218, 218); */
+    align-items: center;
+    border-bottom: 1px solid rgb(230, 218, 218) ;
+    margin-top: -7px;
 
+}
+
+/* .chat_header > .MulSvgIcon-root{
+    margin-top: 5px;
+} */
+.chat_headerInfo{
+    flex: 1;
+
+}
+h3{
+    margin-bottom: 0px;
+    margin-top: -7px;
+
+}
+p{
+    margin-bottom: -7px;
+
+}
