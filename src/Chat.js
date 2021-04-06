@@ -21,7 +21,14 @@ function Chat() {
 
             </div>
             </div>
+            <div className="chat_body">
 
+            </div>
+            <div className="chat_search">
+                <div className="chat_searchContainer">
+                    <input placeholder="Type a message" type="text"></input>
+                </div>
+            </div>
         </div>
     )
 }
