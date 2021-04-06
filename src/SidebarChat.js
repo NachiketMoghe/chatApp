@@ -8,7 +8,7 @@ function SidebarChat() {
             <div className="avatar"><Avatar src="https://wallpapercave.com/wp/wp5047303.jpg" /></div>
             <div className="sidebarInfo">
             <h3>Nilesh Sir Fintech</h3>
-            <p>Hello Nachiket</p>
+            <p>Last Text</p>
             </div>
         </div>
     )

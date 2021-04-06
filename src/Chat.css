@@ -62,3 +62,47 @@ p{
     width: 100%;
     outline-width: 0;
 }
+
+.chat_body{
+    flex: 1;
+    background-image: url("https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Background.max-2800x2800.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 30px;
+    overflow: scroll;
+}
+
+.chat_text{
+    position: relative;
+    font-size: 13px;
+    padding-top: 28px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: rgb(120, 190, 231);
+    margin-bottom: 30px;
+}
+
+.chat_name{
+    position: absolute;
+    font-weight: 800;
+    font-size: 13px;
+    top: 8px;
+}
+
+.chat_timestamp{
+    margin-left: 20px;
+    font-size: xx-small;
+}
+
+.chat_receiver{
+    margin-left: auto;
+    background-color: rgb(127, 84, 184);
+}
+
+.chat_search > .chat_searchContainer > button{
+    display: none;
+}
