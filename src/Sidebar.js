@@ -11,7 +11,7 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebar_header">
-            <IconButton ><Avatar src="https://i.pinimg.com/originals/87/5e/65/875e656ce9308343ea72e67d5c79f282.jpg"/></IconButton>
+            <IconButton> <Avatar src="https://i.pinimg.com/originals/87/5e/65/875e656ce9308343ea72e67d5c79f282.jpg"/> </IconButton>
                 <div className="siderbar_headerRight">
                    <IconButton ><DonutLargeIcon /></IconButton>
                     <IconButton><ChatIcon /></IconButton>
